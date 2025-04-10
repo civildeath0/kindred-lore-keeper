@@ -127,10 +127,10 @@ const RichTextEditor: React.FC<RichTextEditorProps> = ({ initialValue, onChange 
       <div
         id="rich-text-editor"
         contentEditable
-        className="min-h-[300px] p-4 focus:outline-none text-vampire-text"
+        className="min-h-[300px] p-4 focus:outline-none text-vampire-text empty:before:content-[attr(data-placeholder)] empty:before:text-vampire-text/50"
         dangerouslySetInnerHTML={{ __html: content }}
         onInput={handleChange}
-        placeholder={t('editorPlaceholder')}
+        data-placeholder={t('editorPlaceholder')}
       />
     </div>
   );

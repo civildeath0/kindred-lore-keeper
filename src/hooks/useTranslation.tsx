@@ -91,6 +91,9 @@ const translations = {
     notFound: 'Page Not Found',
     goBack: 'Go Back Home',
     errorOccurred: 'An error occurred',
+    
+    // Page detail
+    updated: 'Updated',
   },
   ru: {
     // App
@@ -180,6 +183,9 @@ const translations = {
     notFound: 'Страница не найдена',
     goBack: 'Вернуться на главную',
     errorOccurred: 'Произошла ошибка',
+    
+    // Page detail
+    updated: 'Обновлено',
   }
 };
 
