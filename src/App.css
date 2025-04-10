@@ -4,4 +4,32 @@
 #root {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Accent elements */
+.vampire-accent-border::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 20%;
+  right: 20%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(139, 0, 0, 0.6), transparent);
+}
+
+.vampire-accent-border::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(139, 0, 0, 0.6), transparent);
+}
+
+/* Modal backdrop */
+.vampire-backdrop {
+  background: radial-gradient(circle at center, rgba(20, 20, 25, 0.7) 0%, rgba(10, 10, 15, 0.9) 100%);
+  backdrop-filter: blur(10px);
 }

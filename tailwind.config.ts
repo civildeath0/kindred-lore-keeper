@@ -54,13 +54,17 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				vampire: {
+					bright: '#AB0000',     // Vibrant blood red
 					primary: '#8B0000',     // Deep blood red
-					secondary: '#1A1F2C',   // Dark background
-					accent: '#7E69AB',      // Purple accent
-					text: '#C8C8C9',        // Light gray text
-					dark: '#0F0F0F',        // Very dark background
 					blood: '#5B0000',       // Darker blood red
+					secondary: '#1A1F2C',   // Dark background
+					'secondary-dark': '#12151f', // Darker shade
+					accent: '#7E69AB',      // Purple accent
+					text: '#D1D1D2',        // Light gray text
 					pale: '#E5DEFF',        // Soft purple/lavender
+					dark: '#080809',        // Very dark background
+					'dark-purple': '#160e21', // Dark purple background
+					gold: '#BF9B30',        // Gold accent
 				}
 			},
 			borderRadius: {
@@ -110,8 +114,8 @@ export default {
 			},
 			backgroundImage: {
 				'vampire-texture': "url('/bg-texture.png')",
-				'blood-gradient': "linear-gradient(to right, #8B0000, #5B0000)",
-				'dark-gradient': "linear-gradient(to bottom, #1A1F2C, #0F0F0F)"
+				'blood-gradient': "linear-gradient(to right, #AB0000, #5B0000)",
+				'dark-gradient': "linear-gradient(to bottom, #1A1F2C, #080809)"
 			},
 			boxShadow: {
 				'blood': '0 4px 14px -2px rgba(139, 0, 0, 0.4)',
@@ -120,24 +124,24 @@ export default {
 			typography: {
 				DEFAULT: {
 					css: {
-						color: '#C8C8C9',
+						color: '#D1D1D2',
 						a: {
 							color: '#E5DEFF',
 							'&:hover': {
-								color: '#8B0000',
+								color: '#AB0000',
 							},
 						},
 						h1: {
-							color: '#8B0000',
+							color: '#AB0000',
 						},
 						h2: {
-							color: '#8B0000',
+							color: '#AB0000',
 						},
 						h3: {
-							color: '#8B0000',
+							color: '#AB0000',
 						},
 						h4: {
-							color: '#8B0000',
+							color: '#AB0000',
 						},
 					},
 				},
