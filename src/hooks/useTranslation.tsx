@@ -94,6 +94,13 @@ const translations = {
     // Page detail
     updated: 'Updated',
     readMore: 'Read More',
+    
+    // Adding missing translation keys
+    mainCategories: 'Main Categories',
+    rulesDescription: 'Comprehensive game rules and guidelines',
+    featuredContent: 'Featured Content',
+    popularArticles: 'Popular Articles',
+    recentUpdates: 'Recent Updates',
   },
   ru: {
     // App
@@ -187,6 +194,13 @@ const translations = {
     // Page detail
     updated: 'Обновлено',
     readMore: 'Читать далее',
+    
+    // Adding missing translation keys
+    mainCategories: 'Основные категории',
+    rulesDescription: 'Полное руководство по правилам игры',
+    featuredContent: 'Избранный контент',
+    popularArticles: 'Популярные статьи',
+    recentUpdates: 'Последние обновления',
   }
 };
 
