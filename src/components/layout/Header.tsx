@@ -62,9 +62,7 @@ const Header = () => {
           <Link to="/disciplines" className={`nav-link font-medium uppercase text-sm tracking-wider ${isActive('/disciplines') ? 'active' : ''}`}>
             {t('disciplines')}
           </Link>
-          <Link to="/admin" className={`nav-link font-medium uppercase text-sm tracking-wider ${isActive('/admin') ? 'active' : ''}`}>
-            {t('admin')}
-          </Link>
+          {/* Admin link removed from navigation */}
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
@@ -129,13 +127,7 @@ const Header = () => {
             >
               {t('disciplines')}
             </Link>
-            <Link 
-              to="/admin" 
-              className={`nav-link block uppercase text-sm font-medium ${isActive('/admin') ? 'active' : ''}`} 
-              onClick={toggleMenu}
-            >
-              {t('admin')}
-            </Link>
+            {/* Admin link removed from mobile navigation */}
             
             <div className="flex items-center justify-between pt-4 border-t border-vampire-bright/20">
               <Button 
