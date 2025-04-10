@@ -1,4 +1,3 @@
-
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
 // Define the translations
@@ -94,6 +93,7 @@ const translations = {
     
     // Page detail
     updated: 'Updated',
+    readMore: 'Read More',
   },
   ru: {
     // App
@@ -186,6 +186,7 @@ const translations = {
     
     // Page detail
     updated: 'Обновлено',
+    readMore: 'Читать далее',
   }
 };
 
