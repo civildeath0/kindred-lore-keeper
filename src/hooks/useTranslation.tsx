@@ -1,6 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-// Define the translations
 const translations = {
   en: {
     // App
@@ -22,6 +21,7 @@ const translations = {
     exploreRules: 'Explore Rules',
     discoverClans: 'Discover Clans',
     learnDisciplines: 'Learn Disciplines',
+    exploreClans: 'Explore Clans',
     
     // Footer
     aboutTitle: 'About',
@@ -117,11 +117,12 @@ const translations = {
     
     // Home page
     welcomeTitle: 'Добро пожаловать в Мир Тьмы',
-    welcomeText: 'Интерактивная книга правил для настольной ролевой игры Вампир: Маскарад.',
+    welcomeText: 'Инте��активная книга правил для настольной ролевой игры Вампир: Маскарад.',
     getStarted: 'Начать',
     exploreRules: 'Изучить правила',
     discoverClans: 'Узнать о кланах',
     learnDisciplines: 'Изучить дисциплины',
+    exploreClans: 'Исследовать кланы',
     
     // Footer
     aboutTitle: 'О проекте',
@@ -198,7 +199,7 @@ const translations = {
     // Adding missing translation keys
     mainCategories: 'Основные категории',
     rulesDescription: 'Полное руководство по правилам игры',
-    featuredContent: 'Избранный контент',
+    featuredContent: 'Избран��ый контент',
     popularArticles: 'Популярные статьи',
     recentUpdates: 'Последние обновления',
   }
