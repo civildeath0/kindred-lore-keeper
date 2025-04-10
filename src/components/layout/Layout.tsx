@@ -10,9 +10,9 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-b from-vampire-dark/95 to-vampire-dark">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow vampire-container py-10">
+      <main className="flex-grow pb-12 pt-6">
         {children}
       </main>
       <Footer />
